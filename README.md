@@ -1,4 +1,4 @@
-<b>Docker Project: Launching ownCloud via Docker Compose</b>
+<b><h1>Docker Project: Launching ownCloud via Docker Compose</h1></b>
 
 <b>Overview:-</b>
 
@@ -92,6 +92,5 @@ Open a terminal and cd to the folder in which `docker-compose.yml` is saved and 
 
 docker-compose up
 
-<b>Accessing the ownCloud server website, I built:- </b>
-<img src="1">
+<b>Then we can access the ownCloud server website, built under Docker </b>
 
