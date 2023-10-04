@@ -46,13 +46,14 @@ Make sure you have the latest versions of Docker and Docker Compose installed on
 
 <b>Docker Installation on RedHat:-</b>
 
-Configure yum by adding docker.repo and dvd.repo inside the “/etc/yum.repos.d” for local installation using the link: https://download.docker.com/linux/redhat/docker-ce.repo  
+Configure yum by adding docker.repo and dvd.repo inside the “/etc/yum.repos.d” for local installation using the below link: https://download.docker.com/linux/redhat/docker-ce.repo  
 
 
 <b>Start Docker:-</b>
 
 •	sudo systemctl start docker</br>
 •	sudo systemctl enable docker
+
 
 <b>Install Docker Compose:-</b>
 
@@ -65,7 +66,8 @@ Configure yum by adding docker.repo and dvd.repo inside the “/etc/yum.repos.d�
 Downloading the required docker image for ownCloud and MySQL  from https://hub.docker.com using below commands:
 
 •	docker pull owncloud:latest</br>
-•	docker pull mysql:5.7
+•	docker pull mysql: 5.7
+
   
 <b>Using Docker Compose:-</b>
 
@@ -90,5 +92,8 @@ Open a terminal and cd to the folder in which `docker-compose.yml` is saved and 
 
 •	docker-compose up
 
-<b>Then we can access the ownCloud server website, built under Docker </b>
+</br>
+</br>
+
+<b>Then we can access the ownCloud server website, built under Docker! </b>
 
