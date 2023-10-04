@@ -38,11 +38,10 @@ No rush. No hustles !!
 
 Make sure you have the latest versions of Docker and Docker Compose installed on your machine. If not then follow below commands_
 
-sudo apt-get update
-sudo apt-get remove docker docker-en
-
-gine docker.io
-sudo apt install docker.io
+1.	sudo apt-get update
+2.	sudo apt-get remove docker docker-en
+3.	gine docker.io
+4.	sudo apt install docker.io
 
 
 <b>Docker Installation on RedHat:</b>
@@ -52,7 +51,7 @@ Configure yum by adding docker.repo and dvd.repo inside the â€œ/etc/yum.repos.dâ
 
 <b>Start Docker:</b>
 
-sudo systemctl start docker
+sudo systemctl start docker</br>
 sudo systemctl enable docker
 
 <b>Install Docker Compose:</b>
@@ -63,8 +62,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 <b>Download the Required Images:</b>
 
-Downloading the required docker image for ownCloud and MySQL  from https://hub.docker.com using below commands:
-  docker pull owncloud:latest
+Downloading the required docker image for ownCloud and MySQL  from https://hub.docker.com using below commands:</br>
+  docker pull owncloud:latest</br>
   docker pull mysql:5.7
   
 <b>Using Docker Compose:</b>
