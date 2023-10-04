@@ -2,7 +2,7 @@
 
 <b>Overview:-</b>
 
-This project is based on Docker technology and is created by integrating the technologies Linux RHEL8 (RedHat 8), Python3, Docker, MySQL etc. Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. OwnCloud is a self-hosted file sync and share server. It’s functionally similar to as DropBox, Google Drive etc. This gives us access to our data (files, calendars, contacts, mails etc) through a web interface, across all the devices.
+This project is based on Docker technology and is created by integrating the technologies like Linux RHEL8 (RedHat 8), Python3, Docker, MySQL etc. Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. OwnCloud is a self-hosted file sync and share server. It’s functionally similar to as DropBox, Google Drive etc. This gives us access to our data (files, calendars, contacts, mails etc) through a web interface, across all the devices.
 
 Here, I have deployed the ownCloud architecture inside a docker container and have linked it to MySQL database which is also been deployed in another container. Using Docker Containers, it will be deployed using minimal RAM and in minimal time (within few seconds).
 
